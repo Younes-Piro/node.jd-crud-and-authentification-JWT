@@ -1,0 +1,21 @@
+{
+  "name": "rest-api-mongo-node-js",
+  "version": "1.0.0",
+  "description": "a normal app with nodejs and express and mongo db",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "pigho",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5",
+    "nodemon": "^2.0.12"
+  }
+}
